@@ -2,6 +2,7 @@
  * Author: Arman Yekkehkhani
  * Runtime: 8ms (beats 100%)
  * Memory: 45 MB (beats 75.98%)
+ * tags: heap
  */
 
 class SmallestInfiniteSet {

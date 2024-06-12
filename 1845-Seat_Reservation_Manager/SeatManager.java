@@ -2,6 +2,7 @@
  * Author: Arman Yekkehkhani
  * Runtime: 32ms (beats 98.77%)
  * Memory: 69.4 MB (beats 85.42%)
+ * tags: heap
  */
 
 class SeatManager {
