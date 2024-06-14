@@ -2,7 +2,7 @@
  * Author: Arman Yekkehkhani
  * Runtime: 70ms (beats 48.53%)
  * Memory: 44.3 MB (beats 32.57%)
- * tags: heap, hash
+ * tags: heap
  */
 
 class Solution {
