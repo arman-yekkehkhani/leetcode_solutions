@@ -1,7 +1,5 @@
 /**
  * Author: Arman Yekkehkhani
- * Runtime: 261ms (beats 5.03%)
- * Memory: 48.86 MB (beats 32.56%)
  * tags: hash, sort
  */
 
