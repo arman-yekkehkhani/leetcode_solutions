@@ -12,16 +12,7 @@ class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         trav(root1, r1);
         trav(root2, r2);
-
-        if (r1.size() != r2.size()) {
-            return false;
-        }
-        for (int i = 0 ; i < r1.size(); i++) {
-            if (!r1.get(i).equals(r2.get(i))) {
-                return false;
-            }
-        }
-        return true;
+        return r1.equals(r2);
     }
 
     void trav(TreeNode n, List<Integer> r) {
