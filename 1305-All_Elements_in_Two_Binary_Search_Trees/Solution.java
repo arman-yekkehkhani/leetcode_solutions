@@ -2,7 +2,7 @@
  * Author: Arman Yekkehkhani
  * Runtime: 7ms (beats 99.33%)
  * Memory: 46.10 MB (beats 59.05%)
- * tags: binary tree
+ * tags: binary search tree, in-order-traversal, merge sort
  */
 
 class Solution {
