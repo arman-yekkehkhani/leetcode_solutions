@@ -2,7 +2,7 @@
  * Author: Arman Yekkehkhani
  * Runtime: 15ms (beats 10.80%)
  * Memory: 47.65 MB (beats 9.94%)
- * tags: binary tree
+ * tags: binary tree, breadth-first-search, bfs
  * Note: can be solved easier, solution 2
  */
 
