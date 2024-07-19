@@ -12,3 +12,5 @@ ex new_sol/Solution.java <<eof
 .
 xit
 eof
+
+git add new_sol
