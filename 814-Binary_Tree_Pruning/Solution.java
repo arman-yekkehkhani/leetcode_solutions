@@ -2,7 +2,7 @@
  * Author: Arman Yekkehkhani
  * Runtime: 0 ms (beats 100.00 %)
  * Memory: 41.02 MB (beats 50.73 %)
- * tags:
+ * tags: binary tree
  */
 
 class Solution {
