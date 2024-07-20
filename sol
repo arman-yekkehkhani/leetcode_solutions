@@ -1,4 +1,4 @@
-cd $lc_path
+cd $LC_PATH
 mkdir new_sol && touch new_sol/Solution.java
 ex new_sol/Solution.java <<eof
 1 insert
