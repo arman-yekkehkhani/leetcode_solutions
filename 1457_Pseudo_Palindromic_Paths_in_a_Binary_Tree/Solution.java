@@ -36,3 +36,35 @@ class Solution {
         count[root.val]--;
     }
 }
+
+/**
+ * Author: Arman Yekkehkhani
+ * Runtime: 5 ms (beats 99.79 %)
+ * Memory: 68.45 MB (beats 96.80 %)
+ * tags: binary tree, depth-first-search, dfs, bit manipulation
+ */
+
+class Solution {
+    int num = 0;
+    public int pseudoPalindromicPaths (TreeNode root) {
+        int parity = 0;
+        dfs(root, parity);
+        return num;
+    }
+
+    void dfs(TreeNode root, int parity) {
+        if (root == null) return;
+
+        parity ^= (1 << root.val);
+
+        if (root.right == null && root.left == null) {
+            if ((parity & (parity - 1)) == 0) {
+                num++;
+            }
+            return;
+        }
+
+        dfs(root.left, parity);
+        dfs(root.right, parity);
+    }
+}
