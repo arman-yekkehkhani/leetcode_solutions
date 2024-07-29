@@ -2,7 +2,7 @@
  * Author: Arman Yekkehkhani
  * Runtime: 0 ms (beats 100.00 %)
  * Memory: 40.46 MB (beats 85.00 %)
- * tags: 
+ * tags: bit manipulation
  */
 
 class Solution {
